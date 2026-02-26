@@ -13,7 +13,7 @@ st.dataframe(df)
 df_chart = pd.DataFrame({
     'c': df['Mien'],
     'v': df['San luong'],
-    'o': df[1,2,3]
+    'o': [1,2,3]
 })
 st.subheader('Bieu do tron san luong')
 st.vega_lite_chart(df_chart,{
