@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-csv_content = """Mien ,San luong ,Nam,Don vi tinh
+csv_content = """Mien,San luong,Nam,Don vi tinh
 Bac,150000,2025,tan
 Trung,1000000,2025,tan
 Nam,2000000,2025,tan
